@@ -1,1 +1,1 @@
-web: node wilson.js
+worker: node wilson.js
