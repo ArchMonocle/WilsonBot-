@@ -1,0 +1,10 @@
+{
+  "name": "wilson-bot",
+  "version": "1.0.0",
+  "description": "Nitro is for nerds",
+  "main": "wilson.js",
+  "author": "IcyYaoi",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6"
+  }
+}
