@@ -4,6 +4,9 @@
   "description": "Nitro is for nerds",
   "main": "wilson.js",
   "author": "IcyYaoi",
+  "scripts": {
+    "start": "node your-script.js"
+	},
   "dependencies": {
     "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6"
   }
