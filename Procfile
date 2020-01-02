@@ -1,1 +1,1 @@
-worker: node wilson.js
+worker: java -jar wilson.jar
