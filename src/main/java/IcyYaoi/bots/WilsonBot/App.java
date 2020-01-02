@@ -28,7 +28,7 @@ public class App extends ListenerAdapter {
 	public static void main(String[] args) throws LoginException {
 		
 		JDABuilder builder = new JDABuilder(AccountType.BOT);
-		builder.setToken(Strings.token);
+		builder.setToken(System.getenv("token"));
 		builder.setAutoReconnect(true);
 		builder.addEventListeners(new App());
 		JDA jda = builder.build();
