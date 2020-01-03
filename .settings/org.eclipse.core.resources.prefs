@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
-encoding//src/main/java=UTF-8
-encoding//src/test/java=UTF-8
-encoding/<project>=UTF-8
+encoding//src/main/java/webapp/EventListener.java=UTF-8
+encoding//src/main/java/webapp/ExternalMessageManager.java=UTF-8
+encoding//src/main/webapp/WEB-INF/views/BotPage.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/UploadedPage.jsp=UTF-8

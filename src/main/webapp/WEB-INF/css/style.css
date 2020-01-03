@@ -1,0 +1,105 @@
+@font-face {
+    font-family: unisans;
+    font-style: light;
+    font-weight: 300;
+    src: url(https://discordapp.com/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff) format("woff")
+}
+body{
+	font-family: "unisans";
+	text-align:center;
+	background-color: #7289da;
+}
+
+.botTagText{
+	border-radius: 5px;
+	display:inline-block;
+	font-weight: 600;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #7289da;
+}
+
+.content{
+	background-color: #282c34;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+}
+
+.titleHeader{
+	padding: 30px;
+	font-size: 90px;
+}
+.header1{
+	padding: 10px;
+}
+.header{
+	padding: 15px;
+	font-size: 45px;
+	color: white;
+	font-weight: 800;
+}
+.fakeEmbedWrapper{
+	padding:  20px;
+	background-color: #36393e;
+	color:  white;
+}
+.fakeEmbed{
+	margin: auto;
+	text-align:left;
+	border: 2px solid #313337;
+	border-left: 4px solid #7289da;
+	width: 15%;
+	border-radius: 4px;
+}
+.fakeEmbedText{
+	display: block;
+	padding: 15px;
+	padding-bottom:0px;
+}
+.fakeEmbedAuthor{
+	display: block;
+	padding: 15px;
+}
+.codeLine{
+	display: block;
+	padding:15px;
+}
+.codeBlock{
+	background-color: #1d1e21;
+	padding: 1px;
+	border-radius: 4px;
+}
+.smcontent{
+	font-size: 30px;
+	padding: 10px;
+}
+
+.inputfile + label{
+	padding: 5px;
+	color: #7289da;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.buttonDeco {
+	display: none;
+}
+
+.buttonDeco + label{
+	font-size: 15px;
+	font-weight: 600;
+	padding: 5px;
+	color: #7289da;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.inputfile{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}

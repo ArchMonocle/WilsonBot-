@@ -1,1 +1,1 @@
-worker: java -jar wilsonbot.jar
+web: java -jar wilsonbot.jar
