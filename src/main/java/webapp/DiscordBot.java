@@ -16,7 +16,7 @@ public class DiscordBot extends HttpServlet{
 	@Override
 	public void init() throws ServletException {
 		JDABuilder builder = new JDABuilder(AccountType.BOT);
-		builder.setToken(/* System.getenv("token") */ "NjU4NDQxNzc0MjM0MDc1MTU2.Xg3CUg.Lhz87dTtGgtJCNOkJX-IwQ_k6fw");
+		builder.setToken(System.getenv("token"));
 		builder.setAutoReconnect(true);
 		builder.addEventListeners(new EventListener());
 		try {

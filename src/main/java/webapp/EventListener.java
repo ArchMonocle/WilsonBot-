@@ -11,8 +11,8 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 public class EventListener extends ListenerAdapter {
 
-	private final String address = "http://localhost:8080/wilson.bot";
-	// private final String address = System.getenv("SERVER_URL" )
+	//private final String address = "http://localhost:8080/wilson.bot";
+	private final String address = System.getenv("SERVER_URL") + "/wilson.bot";
 
 	@Override
 	public void onMessageReceived(MessageReceivedEvent event) {
