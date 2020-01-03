@@ -52,12 +52,15 @@
 					<configuration>
 						<path>/</path>
 						<contextReloadable>true</contextReloadable>
+						<enableNaming>false</enableNaming>
+						<finalName>wilsonwebapp.jar</finalName>
+						<charset>utf-8</charset>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
-		<repositories>
+	<repositories>
 		<repository>
 			<id>jcenter</id>
 			<name>jcenter-bintray</name>

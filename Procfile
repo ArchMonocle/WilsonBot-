@@ -1,1 +1,1 @@
-web: java -jar wilsonbot.jar
+web: java -jar target/wilsonwebapp.jar
