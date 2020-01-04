@@ -1,1 +1,1 @@
-web: java -jar target/wilsonwebapp.jar
+war:deploy target/wilson-bot-web-app-0.0.1-SNAPSHOT.war
